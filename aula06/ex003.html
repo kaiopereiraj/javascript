@@ -18,12 +18,20 @@
     <p>Já me livrei da maldição</p>
 
     <script>
-        var n1 = Number.parseInt(window.prompt('Digite um número: ')) // string
-        var n2 = Number.parseInt(window.prompt('Digite outro número: ')) // string
+                 /* É possível usar somente Number sem o parseInt ou parseFloat*/
+        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) // string
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) // string
         var s = n1 + n2
-        window.alert('A soma dos valores é ' + s)  //Concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é igual ${s}`)  //Concatenação
         // number + number para adição
         // string + string para concatenação
+
+        /*Para conveter para uma string pode usar
+            string(S)
+            s.toString()
+        */
+        
+
     </script>
 </body>
 </html>
