@@ -9,6 +9,8 @@
 
 body {
     background-color: #87cefa;
+    background-image: url(fundopx.jpg);
+    background-size: cover;
     height: 100vh;
     display: flex;
 
@@ -20,7 +22,7 @@ body {
 
 
 header h1 {
-    font: bold 3em arial;
+    font: bold 4em arial;
     color: #fff;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.678);
     margin-bottom: 40px;
@@ -31,11 +33,11 @@ section {
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
     padding: 15px;
-    width: 400px;
+    width: 700px;
     margin-bottom: 30px;
 }
 
 footer p {
-    font: italic 1em arial;
+    font: italic 1.5em arial;
     color: #fff;
 }
