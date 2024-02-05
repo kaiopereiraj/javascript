@@ -23,18 +23,52 @@ body {
 
 header h1 {
     font: bold 4em arial;
-    color: #fff;
+    color: #331616;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.795);
     margin-bottom: 40px;
 }
 
 section {
-    background-color: #fff;
+    background-color: #ffffffc9;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
     padding: 15px;
     width: 50%;
     margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section div > p {
+    margin-bottom: 10px;
+    font: normal 1.5em arial;
+}
+
+section div p input {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+section div p input.btn {
+    display: block;
+    width: 100%;
+    background-color: #1277c9a9;
+    color: #fff;
+    text-transform: uppercase;
+    font: normal 0.6em arial;
+    transition: .6s;
+}
+
+section div p input.btn:hover {
+    font: bold 0.8em monospace;
+    background-color: #1277c9;
+    cursor: pointer;
 }
 
 footer p {
