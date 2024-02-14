@@ -30,10 +30,11 @@ section {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
-    padding: 15px;
+    padding: 30px;
     width: 400px;
     margin-bottom: 30px;
 }
+
 
 footer p {
     font: italic 1em arial;
