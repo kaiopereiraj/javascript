@@ -28,10 +28,10 @@ header h1 {
 
 section {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 16px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
     padding: 30px;
-    width: 400px;
+    width: 350px;
     margin-bottom: 30px;
 }
 
