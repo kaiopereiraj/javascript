@@ -14,3 +14,11 @@ while(y <= 3){
     console.log(arr[y])
     y++
 }
+
+var palavra = 'Kaio'
+var i = 0
+
+while(i < 4){
+    console.log(palavra[i])
+    i++
+}
