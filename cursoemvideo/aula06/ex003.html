@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01 - Tratamento de dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="t1">5</h1>
+     <script>
+        var n1 = Number.parseFloat(window.prompt('Digite o primeiro número')); //Vai armazenar o primeiro número digitado pelo usuario
+            //Podemos utilizar somente Number() para converter também 
+        var n2 = Number.parseFloat(window.prompt('Digite um outro número')); //Vai armazenar o segunda número digitado
+
+        //Para converter number em string
+        // String(o que vai ser convertido);
+        // valor_a_ser_convertido.toString();
+
+        var s = n1 + n2
+
+        // (string + string) para concatenação
+        // (number + number) para adição
+
+        window.alert(`A soma entre ${n1} e ${n2} é igual ${s}`);
+
+
+        /* Formatando Strings
+        
+            var s = 'Javascript';
+            'Eu estou aprendendo s'  > Não faz interpolação
+
+            'Eu estou aprendendo ' + s; > Usa concatenação
+
+            `Eu estou aprendendo ${s}`  > Usa template string
+        
+            Informações extras
+
+            s.length > quantos caracteres a string tem
+
+            s.toUpperCase() > tudo para letras maiúsculas
+
+            s.toLowerCase() > tudo para letras minúsculas
+        
+        */
+        
+     </script>
+</body>
+</html>

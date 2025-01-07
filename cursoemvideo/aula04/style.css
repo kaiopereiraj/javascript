@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+h1 {
+    margin: 20px ;
+    font: normal 2em arial;
+    color: goldenrod;
+    text-shadow: 2px 2px 3px #00000094;
+    transition: .8s;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: rgb(0, 89, 255);
+}
