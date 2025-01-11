@@ -57,5 +57,5 @@ const y = undefined;
 
 // Listas
 
-const list = [1, 2, 3. 4];
+const list = [1, 2, 3, 4];
 const object = {name: 'Kaio'};
