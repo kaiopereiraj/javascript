@@ -55,7 +55,11 @@ const x = null;
 const y = undefined; 
 
 
-// Listas
+/* 
+
+Iremos entender na próxima aula o que são listas e para que servem...
 
 const list = [1, 2, 3, 4];
 const object = {name: 'Kaio'};
+
+*/
