@@ -18,9 +18,9 @@ console.log(!!list)
 
 // caso queira checar se uma lista tem algum valor...
 
-if (list.length > 0){ // para checar se a liste tem algo dentro dela
-
-}
+if (list.length > 0)// para checar se a liste tem algo dentro dela 
+{ 
+};
 
 const object = {};
 console.log(!!object);
