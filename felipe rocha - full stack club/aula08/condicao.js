@@ -18,3 +18,16 @@ let number = sum === 2 ? 2 : 4;
 // }
 
 console.log(`Number é igual a ${number}`)
+
+const car = 'BMW';
+
+switch (car) {
+    case 'BMW':
+        console.log('BMW is beautifull')
+        break;
+    case 'Ferrari':
+        console.log('Ferrari is very red')
+        break;
+    case 'Tesla':
+        console.log('Tesla is very smart');
+}
