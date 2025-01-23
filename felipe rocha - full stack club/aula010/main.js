@@ -1,4 +1,12 @@
-function sum (a, b) {
-    console.log(a + b)
+function sum (a, b = 19) {
+    return a + b;
 }
-sum(2, 2)
+
+const sumArrow = (a, b = 19) => {
+    console.log(a, b);
+    return a + b;
+}
+
+const sumValue = sumArrow(2);
+
+console.log(sumValue);
