@@ -22,4 +22,5 @@ const animal = new Animal('Simba');
 const dog = new Dog('Nana')
 
 animal.speak();
+
 dog.speak()
