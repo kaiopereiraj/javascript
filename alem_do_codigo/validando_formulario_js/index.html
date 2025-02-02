@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validando Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -15,7 +16,7 @@
 
         <form class="form" id="idform">
 
-            <div class="form-control">
+            <div class="form-control success">
                 <label for="username">Nome:</label>
                 <input type="text" id="username">
                 <i><img src="images/success-icon.svg" alt=""></i>
@@ -24,7 +25,7 @@
                 <small>Error message</small>
             </div>
 
-            <div class="form-control">
+            <div class="form-control error ">
                 <label for="email">Email:</label>
                 <input type="text" id="email">
                 <i><img src="images/success-icon.svg" alt=""></i>
@@ -50,6 +51,8 @@
 
                 <small>Error message</small>
             </div>
+
+            <button type="submit">Enviar</button>
 
         </form>
 
