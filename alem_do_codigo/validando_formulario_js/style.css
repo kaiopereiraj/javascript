@@ -74,6 +74,7 @@ body {
 
 .form-control.error i.img-error {
     visibility: visible;
+
 }
 
 .form-control.success i.img-success {
